@@ -1,0 +1,6 @@
+D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/native-lib.dir
+D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/x86_64/dlib_build/CMakeFiles/dlib.dir
+D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/x86_64/dlib_build/CMakeFiles/edit_cache.dir
+D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/x86_64/dlib_build/CMakeFiles/rebuild_cache.dir

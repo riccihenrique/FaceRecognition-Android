@@ -1,0 +1,700 @@
+{
+  "stringTable": {
+    "0": "D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a/dlib_build",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp/opencv/jni/include -I../../../../src/main/cpp/dlib/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -Oz -DNDEBUG -s -O3 -Wall -fPIC -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -DDLIB_NO_GUI_SUPPORT -ftemplate-depth=500 -std=gnu++11",
+    "2": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DDLIB_JPEG_STATIC -I../../../../src/main/cpp/dlib/external/libpng -I../../../../src/main/cpp/dlib/external/zlib -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -Oz -DNDEBUG -fPIC -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -DDLIB_NO_GUI_SUPPORT -ftemplate-depth=500 -std=gnu++11",
+    "3": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DDLIB_JPEG_STATIC -I../../../../src/main/cpp/dlib/external/libpng -I../../../../src/main/cpp/dlib/external/zlib -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -Oz -DNDEBUG -fPIC -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -DDLIB_NO_GUI_SUPPORT",
+    "4": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC   -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -DDLIB_NO_GUI_SUPPORT -ftemplate-depth=500 -std=gnu++11",
+    "5": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -DDLIB_NO_GUI_SUPPORT",
+    "6": "D:/Desktop/FaceDetection-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a",
+    "7": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -s -O3 -Wall -fPIC   -DDLIB_JPEG_SUPPORT -DDLIB_PNG_SUPPORT -DDLIB_NO_GUI_SUPPORT -ftemplate-depth=500 -std=gnu++11"
+  },
+  "buildFiles": [
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\CMakeLists.txt",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\use_cpp_11.cmake",
+    "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\build\\cmake\\platforms.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\check_if_neon_available.cmake",
+    "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\set_compiler_specific_options.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\find_blas.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\CMakeLists.txt",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\release_build_by_default"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "dlib-Release-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target dlib",
+      "buildType": "debug",
+      "toolchain": "2424523660",
+      "abi": "armeabi-v7a",
+      "artifactName": "dlib",
+      "files": [
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\base64\\base64_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\bigint\\bigint_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\bigint\\bigint_kernel_2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\bit_stream\\bit_stream_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\entropy_decoder\\entropy_decoder_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\entropy_decoder\\entropy_decoder_kernel_2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\entropy_encoder\\entropy_encoder_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\entropy_encoder\\entropy_encoder_kernel_2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\md5\\md5_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\tokenizer\\tokenizer_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\unicode\\unicode.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\data_io\\image_dataset_metadata.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\data_io\\mnist.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\global_optimization\\global_function_search.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\filtering\\kalman_filter.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\test_for_odr_violations.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\svm\\auto.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\sockets\\sockets_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\bsp\\bsp.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\dir_nav\\dir_nav_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\dir_nav\\dir_nav_kernel_2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\dir_nav\\dir_nav_extensions.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\linker\\linker_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\logger\\extra_logger_headers.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\logger\\logger_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\logger\\logger_config_file.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\misc_api\\misc_api_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\misc_api\\misc_api_kernel_2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\sockets\\sockets_extensions.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\sockets\\sockets_kernel_2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\sockstreambuf\\sockstreambuf.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\sockstreambuf\\sockstreambuf_unbuffered.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\server\\server_kernel.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\server\\server_iostream.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\server\\server_http.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\threads\\multithreaded_object_extension.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\threads\\threaded_object_extension.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\threads\\threads_kernel_1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\threads\\threads_kernel_2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\threads\\threads_kernel_shared.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\threads\\thread_pool_extension.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\threads\\async.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\timer\\timer.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\stack_trace.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cuda\\cpu_dlib.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cuda\\tensor_tools.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\image_loader\\png_loader.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\image_saver\\save_png.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcomapi.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdapimin.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdapistd.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdatasrc.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdcoefct.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdcolor.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jddctmgr.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdhuff.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdinput.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdmainct.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdmarker.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdmaster.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdmerge.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdphuff.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdpostct.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdsample.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jerror.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jidctflt.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jidctfst.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jidctint.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jidctred.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jmemmgr.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jmemnobs.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jquant1.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jquant2.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jutils.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcapimin.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jdatadst.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcparam.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcapistd.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcmarker.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcinit.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcmaster.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcdctmgr.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jccoefct.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jccolor.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jchuff.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcmainct.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcphuff.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcprepct.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jcsample.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jfdctint.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jfdctflt.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libjpeg\\jfdctfst.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\image_loader\\jpeg_loader.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\image_saver\\save_jpeg.cpp",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\png.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngerror.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngget.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngmem.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngpread.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngread.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngrio.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngrtran.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngrutil.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngset.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngtrans.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngwio.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngwrite.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngwtran.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\libpng\\pngwutil.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\adler32.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\compress.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\crc32.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\deflate.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\gzclose.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\gzlib.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\gzread.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\gzwrite.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\infback.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\inffast.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\inflate.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\inftrees.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\trees.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\uncompr.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\external\\zlib\\zutil.c",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\\dlib_build\\libdlib.a"
+    },
+    "native-lib-Release-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target native-lib",
+      "buildType": "debug",
+      "toolchain": "2424523660",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\jni_common\\jni_bitmap2mat.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 6
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\face_detector.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 6
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 6
+        },
+        {
+          "src": "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\face_detector.h",
+          "workingDirectoryOrdinal": 6
+        }
+      ],
+      "output": "D:\\Desktop\\FaceDetection-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "2424523660": {
+      "cCompilerExecutable": "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

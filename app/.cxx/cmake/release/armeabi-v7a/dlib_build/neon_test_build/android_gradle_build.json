@@ -1,0 +1,40 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/henrique/Documentos/FaceDetection 2.0/app/src/main/cpp/dlib/cmake_utils/test_for_neon/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/henrique/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/henrique/Documentos/FaceDetection\\ 2.0/app/.cxx/cmake/release/armeabi-v7a/dlib_build/neon_test_build --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"neon_test-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "neon_test",
+			"buildCommand" : "/home/henrique/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/henrique/Documentos/FaceDetection\\ 2.0/app/.cxx/cmake/release/armeabi-v7a/dlib_build/neon_test_build --target neon_test",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/henrique/Android/ndk/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/henrique/Android/ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIC    -c ",
+					"src" : "/home/henrique/Documentos/FaceDetection 2.0/app/src/main/cpp/dlib/cmake_utils/test_for_neon/neon_test.cpp",
+					"workingDirectory" : "/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/release/armeabi-v7a/dlib_build/neon_test_build"
+				}
+			],
+			"output" : "/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/release/armeabi-v7a/dlib_build/neon_test_build/libneon_test.a",
+			"toolchain" : "358841731706084167"
+		}
+	},
+	"toolchains" : 
+	{
+		"358841731706084167" : 
+		{
+			"cCompilerExecutable" : "/home/henrique/Android/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/henrique/Android/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

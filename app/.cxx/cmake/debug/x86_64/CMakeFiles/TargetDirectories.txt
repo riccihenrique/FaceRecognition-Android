@@ -1,0 +1,6 @@
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/x86_64/CMakeFiles/native-lib.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/x86_64/dlib_build/CMakeFiles/edit_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/x86_64/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/x86_64/dlib_build/CMakeFiles/dlib.dir

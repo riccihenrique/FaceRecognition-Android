@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\CMakeLists.txt",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\use_cpp_11.cmake",
+    "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\build\\cmake\\platforms.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\check_if_neon_available.cmake",
+    "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\set_compiler_specific_options.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\find_blas.cmake",
+    "D:\\Desktop\\FaceDetection-master\\app\\CMakeLists.txt",
+    "D:\\Desktop\\FaceDetection-master\\app\\src\\main\\cpp\\dlib\\cmake_utils\\release_build_by_default"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+  ],
+  "libraries": {
+    "dlib-Release-x86": {
+      "artifactName": "dlib",
+      "buildCommand": "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\release\\x86 --target dlib",
+      "abi": "x86",
+      "output": "D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\release\\x86\\dlib_build\\libdlib.a"
+    },
+    "native-lib-Release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\ricci\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Desktop\\FaceDetection-master\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+      "abi": "x86",
+      "output": "D:\\Desktop\\FaceDetection-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+Check for working C compiler: C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+Check for working C compiler: C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+Detecting C compiler ABI info
+Detecting C compiler ABI info - done
+Detecting C compile features
+Detecting C compile features - done
+Check for working CXX compiler: C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+Check for working CXX compiler: C:/Users/ricci/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+Detecting CXX compiler ABI info
+Detecting CXX compiler ABI info - done
+Detecting CXX compile features
+Detecting CXX compile features - done
+Using CMake version: 3.10.2
+Compiling dlib version: 19.16.0
+Looking for pthread.h
+Looking for pthread.h - found
+Looking for pthread_create
+Looking for pthread_create - found
+Found Threads: TRUE  
+ *****************************************************************************
+ *** DLIB GUI SUPPORT DISABLED BECAUSE X11 DEVELOPMENT LIBRARIES NOT FOUND ***
+ *** Make sure libx11-dev is installed if you want GUI support.            ***
+ *** On Ubuntu run: sudo apt-get install libx11-dev                        ***
+ *****************************************************************************
+Searching for BLAS and LAPACK
+Searching for BLAS and LAPACK
+Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+Looking for sys/types.h
+Looking for sys/types.h - found
+Looking for stdint.h
+Looking for stdint.h - found
+Looking for stddef.h
+Looking for stddef.h - found
+Check size of void*
+Check size of void* - done
+ *****************************************************************************
+ *** No BLAS library found so using dlib's built in BLAS.  However, if you ***
+ *** install an optimized BLAS such as OpenBLAS or the Intel MKL your code ***
+ *** will run faster.  On Ubuntu you can install OpenBLAS by executing:    ***
+ ***    sudo apt-get install libopenblas-dev liblapack-dev                 ***
+ *** Or you can easily install OpenBLAS from source by downloading the     ***
+ *** source tar file from http://www.openblas.net, extracting it, and      ***
+ *** running:                                                              ***
+ ***    make; sudo make install                                            ***
+ *****************************************************************************
+Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (Required is at least version "7.5")
+Disabling CUDA support for dlib.  DLIB WILL NOT USE CUDA
+Building a C++11 test project to see if your compiler supports C++11
+C++11 activated.
+Configuring done

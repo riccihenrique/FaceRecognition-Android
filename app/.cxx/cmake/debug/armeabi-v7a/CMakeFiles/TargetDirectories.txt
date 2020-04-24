@@ -1,0 +1,6 @@
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/armeabi-v7a/dlib_build/CMakeFiles/edit_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/armeabi-v7a/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/henrique/Documentos/FaceDetection 2.0/app/.cxx/cmake/debug/armeabi-v7a/dlib_build/CMakeFiles/dlib.dir
